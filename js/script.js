@@ -6,7 +6,7 @@ const bookLit = document.querySelector('.book-list');
 
 addBtn.addEventListener('click', function(){
     if(titleInput.value == '' || authorInput.value == '' || isbnInput.value == ''){
-        alert('s')
+        alert('write something')
     } else{
         const bookListChild = document.createElement('div')
         bookListChild.className = 'book-list-child'
